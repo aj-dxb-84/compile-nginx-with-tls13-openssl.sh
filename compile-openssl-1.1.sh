@@ -27,7 +27,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib64/
 
 read -n1 -r -p "$(/usr/local/bin/openssl version) - Press any key to continue..." key
 
-source ./nginx-with-tls13-compile.sh
+source ./compile-nginx-with-tls13.sh
 
 ## copy systemctl config
 cp nginx.service /lib/systemd/system/nginx.service
