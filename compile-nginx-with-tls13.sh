@@ -65,5 +65,6 @@ sudo make install
 nginx -V
 
 sudo systemctl reload nginx.service
+sudo systemctl daemon-reload
 
 nginx -t
