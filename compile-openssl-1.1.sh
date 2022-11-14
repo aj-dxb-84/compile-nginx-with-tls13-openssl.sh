@@ -30,4 +30,4 @@ read -n1 -r -p "$(/usr/local/bin/openssl version) - Press any key to continue...
 source ./compile-nginx-with-tls13.sh
 
 ## copy systemctl config
-cp nginx.service /lib/systemd/system/nginx.service
+cp nginx.service /usr/lib/systemd/system/nginx.service
