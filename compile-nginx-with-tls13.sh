@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## nginx
-NGINX=nginx-1.21.4.tar.gz
+NGINX=nginx-1.22.1.tar.gz
 
 if [ ! -f "${NGINX}" ];then
     wget https://nginx.org/download/${NGINX}
