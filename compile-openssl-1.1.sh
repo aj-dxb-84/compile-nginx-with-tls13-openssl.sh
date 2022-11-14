@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Compile OpenSSL
-OPENSSL=openssl-1.1.1l.tar.gz
+OPENSSL=openssl-1.1.1s.tar.gz
 
 DONE=openssl-compile-done
 
