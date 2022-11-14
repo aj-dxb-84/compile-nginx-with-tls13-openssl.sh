@@ -5,6 +5,6 @@ Compile script for TLS 1.3 support on RHEL/CentOS 7 version: nginx-1.22.1 openss
 - `sudo mkdir /workspace`
 - `cd /workspace`
 - `git clone https://github.com/aj-dxb-84/compile-nginx-with-tls13-openssl.sh.git`
-- cd compile-nginx-with-tls13-openssl.sh
-- chmod 755 compile-openssl-1.1.sh compile-nginx-with-tls13.sh nginx.service
-- ./compile-openssl-1.1.sh
+- `cd compile-nginx-with-tls13-openssl.sh`
+- `chmod 755 compile-openssl-1.1.sh compile-nginx-with-tls13.sh nginx.service`
+- `./compile-openssl-1.1.sh`
