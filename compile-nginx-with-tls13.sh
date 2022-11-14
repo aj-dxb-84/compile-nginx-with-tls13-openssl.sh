@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## nginx
+## nginx Stable version
 NGINX=nginx-1.22.1.tar.gz
 
 if [ ! -f "${NGINX}" ];then
