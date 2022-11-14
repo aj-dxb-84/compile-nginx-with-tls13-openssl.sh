@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## nginx
-NGINX=nginx-1.21.4.tar.gz
+NGINX=nginx-1.22.1.tar.gz
 
 if [ ! -f "${NGINX}" ];then
     wget https://nginx.org/download/${NGINX}
@@ -65,5 +65,6 @@ sudo make install
 nginx -V
 
 sudo systemctl reload nginx.service
+sudo systemctl daemon-reload
 
 nginx -t
